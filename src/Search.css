@@ -1,0 +1,26 @@
+#outer-search-body{
+  
+    width: 800px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#search-bar{
+    width: 100%;
+    height : 60px;
+    border-radius: 5px;
+    border : 1px solid rgb(35, 34, 34);
+    font-size: 25px;
+    /* Add some font family */
+}
+
+#search-bar:focus {
+    background-color: rgba(230, 167, 30, 0.096);
+}
+
+#poke-name{
+    color : rgb(95, 31, 1);
+}

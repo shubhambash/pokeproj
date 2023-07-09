@@ -1,5 +1,12 @@
+
+*{
+  font-family: 'Akshar', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
