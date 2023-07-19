@@ -14,7 +14,18 @@ export const Paginate = ({postsPerPage, totalPosts, paginate}) => {
     return (
     <nav>
 
+        
+
     <ul className='pagination '>
+
+    <li className='page-item'  aria-current="page">
+
+    <a href="!#" id="prev-next" className='page-link'>
+        Prev
+    </a>
+
+    </li>
+
         {pageNumbers?.map(number => (
             
             <>
@@ -28,7 +39,6 @@ export const Paginate = ({postsPerPage, totalPosts, paginate}) => {
                     <li key = {number} className='page-item'  aria-current="page">
 
                         <a onClick={() => paginate(number)} href="!#" className='page-link'>
-
                             {number}
                         </a>
 
@@ -40,6 +50,15 @@ export const Paginate = ({postsPerPage, totalPosts, paginate}) => {
 
             </>
         ))}
+
+    <li className='page-item'  aria-current="page">
+
+    <a href="!#" id="prev-next" className='page-link'>
+        Next
+    </a>
+
+    </li>
+
     </ul>
 
     </nav>
